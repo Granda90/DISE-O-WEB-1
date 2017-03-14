@@ -1,0 +1,41 @@
+
+
+.rojo{
+    background-color: #CC172A;
+    padding: 15px;
+}
+.negro{
+    background-color: #23262B;
+    padding: 15px;
+    
+}
+
+.gris{
+    background-color: gainsboro;
+    padding: 30px;
+    
+    
+}
+
+
+.p2{
+    color: dodgerblue;
+    position: relative;
+    padding-left: 30px;
+}
+
+
+
+section{
+
+ float: left; 	   
+ width: 70%;
+
+  background-color: #A9A9AD;
+  color: #000000;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 150%;
+
+}
+
