@@ -2,58 +2,53 @@
 
 <html lang="es">
 
-    <head>
-        <title>Kitten Kare</title>
+
+    <HEAD>
+
+        <TITLE>Nombre de mes</TITLE>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="two-or-three-col-layout.css" />
-    </head>
-
-    <body>
-        <header>
-
-        </header>
-
-
-        <nav>
-
-        </nav>
+        <script src="JS_afuera.js"></script>
+    </HEAD>
 
 
 
-        <div class="rojo">
-
-            <h1> Lorem ipsum</h1>
-            <p> Donec et purus ullamcorper, 
-                sollicitudin magna quis, semper nisl. 
-                Fusce vulputate arcu sed elit lobortis ullamcorper. Vestibulum sodales est sed nisi facilisis 
-                ullamcorper. </p>
-        </div>
-
-        <div class="negro">
-
-            <h1> Lorem ipsum</h1>
-            <p> Donec et purus ullamcorper, 
-                sollicitudin magna quis, semper nisl. 
-                Fusce vulputate arcu sed elit lobortis ullamcorper. Vestibulum sodales est sed nisi facilisis 
-                ullamcorper. </p>
-        </div>
+    <BODY>
 
 
-        <div class="gris">
-            <h1> Lorem ipsum</h1>
-            <p> Donec et purus ullamcorper, 
-                sollicitudin magna quis, semper nisl. 
-                Fusce vulputate arcu sed elit lobortis ullamcorper. Vestibulum sodales est sed nisi facilisis 
-                ullamcorper. </p>
-        </div>
+        <h1>Ejemplo de javascript</h1>
 
 
 
 
+        <button onclick="myFunction()">JS adentro</button>
+        <button id="btn">JS afuera</button>
 
 
-     
+        <script language="JavaScript" >
+            function myFunction() { //javascript adentro
+                var hoy = new Date();
+                dia = hoy.getDate();
+                mes = hoy.getMonth();
+                ano = hoy.getYear() + 1900;
 
 
-    </body>
-</html>
+
+                Idiv = "<div> dentro";
+                Fdiv = "</div>";
+                //este div no carga el style ya que el CSS habia sido corrido
+
+                document.write(Idiv);
+                document.write(dia);
+                document.write(" / ");
+                document.write(mes);
+                document.write(" / ");
+                document.write(ano);
+                document.write(Fdiv)
+
+            }
+        </script>
+
+
+    </BODY>
+</HTML>

@@ -2,26 +2,9 @@
 
 .rojo{
     float: left;
-    width: 33%;
-    background-color: #CC172A;
+    width: 100%;
+    color: red;
 
-}
-.negro{
-    float: left;
-    width: 33%;
-    background-color: #23262B;
-   
-    
-}
-
-.gris{
-    
-    float: left;
-    width: 33%;
-    background-color: gainsboro;
-
-    
-    
 }
 
 
